@@ -1,0 +1,83 @@
+
+/* 
+    File web_style.css
+    GUI Assignment: Creating Your First Web Page
+    Matthew Jarek, UMass Lowell Computer Science, matthew_jarek@student.uml.edu
+    Updated by MJ on May 28, 2025 at 6:57 PM
+    .center and div.page were gotten from w3schools
+ */
+
+/* Styles Heading 1, changes font and backround color, font size and meses with the margin.*/
+h1 {
+    color: lavenderblush;
+    margin: 0pt;
+    margin-bottom: 6pt;
+    background-color: darkred;
+    font-size: 24pt;
+    text-align: center;
+}
+
+/* Styles Heading 2, changes font and backround color, font size and meses with the margin.*/
+h2 {
+    margin: 6pt;
+    color: black;
+    background-color: lavenderblush;
+    font-size: 20pt;
+}
+
+/* Styles Heading 3, changes font and backround color, font size and style and meses with the margin.*/
+h3 {
+    margin: 6pt;
+    margin-bottom: 0pt;
+    color: darkred;
+    font-size: 16pt;
+    font-style: italic;
+}
+
+/* Styles paragraph, meses with the margin.*/
+p{
+    margin: 6pt;
+    margin-bottom: 3pt;
+}
+
+/* Styles the table, makes text in the table centered */
+table{
+   text-align: center;
+}
+
+/* A center class to center a table */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styles images, centers the images */
+img {
+    margin: 6pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styles lists, changes the margin */
+ul, ol{
+    text-align: left;
+    margin: 6pt;
+}
+
+/* Styles the table, adds pading and changes the border */
+table, th, td{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* A class that restrics the size of the page and adds a nice border */
+div.page {
+    max-width: 1000px;
+    margin: auto;
+    border: 3px solid darkred;
+}
